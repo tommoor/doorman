@@ -5,9 +5,10 @@ This script answers my front door and lets me know that guests have arrived when
 
 ## How this works
 
-1. Door box calls my Google Hangouts number
-2. If turned on then Hangouts forwards calls from the Door box to a Twilio number
-3. Twilio hits up this script, running on a Heroku account
-4. Twilio reads the XML response and says some words followed by a DTMF tone that opens the door
-5. A text message is sent to my phone to alert me that someone was let in
-6. Profit?
+1. Someone punches in my flat number on the door entry system
+2. Door entry system calls my Google Hangouts number
+3. If enabled then Hangouts forwards calls from the door box to a Twilio number automatically
+4. Twilio hits up this script, running on a Heroku account
+5. Twilio reads the XML response and says some words followed by a DTMF tone that opens the door
+6. A text message is sent to my phone to alert me that someone was let in
+7. Profit?
