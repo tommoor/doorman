@@ -2,6 +2,6 @@
 <Response>
     <Say>open sesame</Say>
     <Pause length="1"/>
-    <Play>http://jetcityorange.com/dtmf/DTMF-9.mp3</Play>
+    <Play>https://www.dropbox.com/s/u1d1mulc9mct8fa/DTMF-9.mp3?dl=1</Play>
     <Pause length="3"/>
 </Response>
