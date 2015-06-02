@@ -11,7 +11,7 @@ app.set('port', (process.env.PORT || 5000));
 
 // routes
 app.get('/', function(request, response) {
-  response.sendFile(res.sendFile(path.join(__dirname, 'views', 'index.xml')));
+  response.sendFile(path.join(__dirname, 'views', 'index.xml'));
   
   client.sms.messages.create({
     to: process.env.PHONE_NUMBER,
