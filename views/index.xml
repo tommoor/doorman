@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>open sesame</Say>
+    <Pause length="1"/>
+    <Play>http://jetcityorange.com/dtmf/DTMF-9.mp3</Play>
+    <Pause length="3"/>
+</Response>

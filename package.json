@@ -1,0 +1,17 @@
+{
+  "name": "doorman",
+  "version": "0.0.1",
+  "description": "Doorman answers your door",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "twilio": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "license": "MIT"
+}
