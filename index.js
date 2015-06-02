@@ -11,10 +11,10 @@ app.set('port', (process.env.PORT || 5000));
 
 // routes
 app.get('/', function(request, response) {
-  response.sendFile(res.sendFile(path.join(__dirname, 'views', 'index.xml')););
+  response.sendFile(res.sendFile(path.join(__dirname, 'views', 'index.xml')));
   
   client.sms.messages.create({
-    to: '+' + process.env.PHONE_NUMBER,
+    to: process.env.PHONE_NUMBER,
     from: process.env.TWILIO_NUMBER,
     body: 'Ahoy! A guest was just let in the front door'
   }, function(err, message) {
